@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+     "target": "es6",
+     "module": "commonjs",
+     "outDir": "build",
+     "sourceMap": true,
+     "declaration": true,
+     "moduleResolution": "node",
+     "allowSyntheticDefaultImports": true,
+     "experimentalDecorators": true,
+     "baseUrl": "src",
+     "lib": [
+       "es2017.object",
+       "es2015",
+       "es2017"
+     ],
+     "paths": {
+      "@controllers/*": ["./src/controllers/*"], 
+      "@helpers/*": ["/src/helpers/*"],
+      "@middlewares/*": ["/src/middlewares/*"],
+      "@models/*": ["src/models/*"],
+      "@public/*": ["src/public/*"],
+      "@tests/*": ["src/tests/*"]
+    },
+  },
+  "files": [
+     "./node_modules/@types/node/index.d.ts"
+  ],
+  "include": [
+     "src/**/*.ts"
+  ],
+  "exclude": [
+     "node_modules"
+  ]
+}
