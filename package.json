@@ -35,6 +35,7 @@
     "module-alias": "^2.1.0",
     "moment": "^2.22.2",
     "passport": "^0.4.0",
+    "passport-activedirectory": "^1.0.4",
     "sequelize": "^4.41.2"
   }
 }
