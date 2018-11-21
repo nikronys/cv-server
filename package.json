@@ -9,14 +9,6 @@
     "dev": "concurrently \"tsc -w \" \"./node_modules/nodemon/bin/nodemon.js ./build/app.js\"",
     "lint": "tslint ./src"
   },
-  "_moduleAliases": {
-    "controllers": "/build/controllers",
-    "@helpers": "/src/helpers",
-    "@middlewares": "/src/middlewares",
-    "@models": "src/models",
-    "@public": "src/public",
-    "@tests": "src/tests"
-  },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
     "@types/cors": "^2.8.4",
@@ -32,10 +24,12 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.0",
-    "module-alias": "^2.1.0",
+    "joi": "^14.1.0",
     "moment": "^2.22.2",
     "passport": "^0.4.0",
     "passport-activedirectory": "^1.0.4",
+    "pg": "^7.6.1",
+    "pg-hstore": "^2.3.2",
     "sequelize": "^4.41.2"
   }
 }

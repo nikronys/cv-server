@@ -9,6 +9,9 @@ Thumbs.db
 # dependencies
 node_modules
 
+# credentials
+src/config
+
 # misc
 .env.local
 .env.development.local
